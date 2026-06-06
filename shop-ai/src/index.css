@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Syne:wght@700;800&display=swap');
+
+* {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.font-display {
+  font-family: 'Syne', sans-serif;
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, #EEF2FF 0%, #E0E7FF 50%, #F0F9FF 100%);
+}
+
+.card-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(99, 102, 241, 0.12);
+}
+
+.badge-gradient {
+  background: linear-gradient(135deg, #6366F1, #8B5CF6);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #4F46E5, #6366F1);
+  transition: all 0.2s ease;
+}
+.btn-primary:hover {
+  background: linear-gradient(135deg, #4338CA, #4F46E5);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(79, 70, 229, 0.35);
+}
+
+.ai-chip {
+  background: linear-gradient(135deg, #6366F1 0%, #8B5CF6 100%);
+}
+
+.chat-gradient {
+  background: linear-gradient(180deg, #4F46E5 0%, #7C3AED 100%);
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #C7D2FE; border-radius: 2px; }
